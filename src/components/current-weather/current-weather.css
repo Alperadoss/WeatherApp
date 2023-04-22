@@ -1,10 +1,10 @@
 .weather {
   width: 300px;
-  border-radius: 8px;
-  box-shadow: 10px -2px 20px 2px grey;
+  border-radius: 16px;
+  box-shadow: 10px -2px 20px 2px rgb(165, 163, 163);
   color: white;
-  background-color: #333;
-  margin: 20px auto 0 auto;
+  background-color: #585757;
+  margin: 20px auto 20px auto;
   padding: 0 20px 20px 20px;
 }
 
@@ -36,9 +36,9 @@
 
 .temperature {
   font-weight: 600;
-  font-size: 70px;
+  font-size: 60px;
   width: auto;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
   margin: 10px 0;
 }
 
