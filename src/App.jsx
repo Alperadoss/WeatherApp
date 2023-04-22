@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Search from "./components/search/search";
+import CurrentWeather from "./components/current-weather/CurrentWeather";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="container">
       <Search onSearchChange={handleOnSearchChange} />
+      <CurrentWeather />
     </div>
   );
 }
